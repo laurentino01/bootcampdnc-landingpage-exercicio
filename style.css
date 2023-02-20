@@ -9,18 +9,21 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-
+body {
+  background: linear-gradient(180deg, #0c70f2 22%, #303030 80%);
+  background-repeat: no-repeat;
+}
 #menuPrincipal {
   background-color: var(--black);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10%;
+  padding: 10px 10%;
   border-bottom: 1px solid #bababa;
 }
 #menuPrincipal a {
-  padding: 10px;
-  margin: 10px 5px;
+  padding: 15px 10px;
+  margin: 10px;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -42,4 +45,26 @@
 #menuPrincipal button:hover {
   background-color: #2d83f3;
   transition: 0.5s;
+}
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  text-align: center;
+  color: white;
+  padding: 0 20%;
+}
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#hero h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#hero .hero__paragraph-decor {
+  background-color: #303030;
 }
