@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 :root {
   --black: #303030;
+  --blue: #0c70f2;
 }
 * {
   margin: 0;
@@ -14,13 +15,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 5px 10%;
+  border-bottom: 1px solid #bababa;
 }
 #menuPrincipal a {
   padding: 10px;
-  margin: 10px;
+  margin: 10px 5px;
   color: white;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+#menuPrincipal a:hover {
+  background-color: #535353;
+  transition: 0.5s;
+}
+#menuPrincipal button {
+  font-size: 16px;
+  padding: 5px 15px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+}
+#menuPrincipal button:hover {
+  background-color: #2d83f3;
+  transition: 0.5s;
 }
