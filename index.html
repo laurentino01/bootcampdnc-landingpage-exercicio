@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav id="menuPrincipal">
+    <nav id="menuPrincipal" class="d-flex">
       <div>
         <a href="#">Home</a>
         <a href="#">Ultimas Edições</a>
         <a href="#">Requisitos para Participar</a>
       </div>
-      <button>Login</button>
+      <button class="btn">Login</button>
     </nav>
-    <section>
-      <header id="hero">
+    <section class="main-section">
+      <header id="hero" class="d-flex">
         <h1>Bootcamp <strong> DNC</strong></h1>
 
         <h2>
@@ -32,9 +32,82 @@
           >e <span class="hero__paragraph-decor">BANCO DE DADOS</span> .
         </h2>
       </header>
-      <form action="">
-        <input type="text" />
+      <form action="" id="forms">
+        <div class="form-group">
+          <label for="">Nome:</label>
+          <input type="text" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+          <label for="">Sobrenome:</label>
+          <input type="text" placeholder="Digite seu sobrenome" />
+        </div>
+        <div class="form-group">
+          <label for="">Escolha uma competencia:</label>
+          <div class="checkbox-itens d-flex">
+            <label for="front">
+              <input type="checkbox" value="front" id="front" />
+              Front-end
+            </label>
+
+            <label for="back">
+              <input type="checkbox" value="back" id="back" />
+              Back-end
+            </label>
+
+            <label for="bd">
+              <input type="checkbox" value="bd" id="bd" />
+              Banco de dados
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="">E-mail:</label>
+          <input type="email" placeholder="Digite seu melhor email" />
+        </div>
+        <div class="form-group">
+          <label for="">Telefone:</label>
+          <input type="telefone" placeholder="(99) 9 9999-999" />
+        </div>
+        <div class="form-group">
+          <label for="">Frase criativa:</label>
+          <input type="text" placeholder="Digite uma frase criativa" />
+        </div>
+        <button type="submit" class="btn">Cadastrar</button>
       </form>
     </section>
+    <footer id="footer" class="d-flex">
+      <div class="footer__menu-adress d-flex">
+        <nav class="menu-adress__formation">
+          <h5>Formações</h5>
+          <ul>
+            <li><a href="">Formação em Tecnologia</a></li>
+            <li><a href="">Formação em Marketing</a></li>
+            <li><a href="">Formação em Dados</a></li>
+            <li><a href="">Formação em Projetos</a></li>
+            <li><a href="">Formação em Produtos</a></li>
+          </ul>
+        </nav>
+        <nav class="menu-adress__about">
+          <h5>Sobre a DNC</h5>
+          <ul>
+            <li><a href="">História</a></li>
+            <li><a href="">Missão e valores</a></li>
+            <li><a href="">Trabalhe conosco</a></li>
+            <li><a href="">Conteúdo gratuito</a></li>
+          </ul>
+        </nav>
+        <div class="menu-adress__adress">
+          &copy; 2023 DTC Treinamentos e Consultorias LTDA | CNPJ:
+          27.995.577/0001-37 | R. Justino cobra, 61 - Vilas Ema | São José dos
+          campos - SP | CEP 12243-030
+        </div>
+      </div>
+      <div class="footer__privacy-policy">
+        <p>
+          <a href=""> Termos de uso </a>|
+          <a href=""> Políticas de privacidade</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

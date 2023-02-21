@@ -9,15 +9,14 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-body {
-  background: linear-gradient(180deg, #0c70f2 22%, #303030 80%);
-  background-repeat: no-repeat;
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #menuPrincipal {
   background-color: var(--black);
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px 10%;
   border-bottom: 1px solid #bababa;
 }
@@ -33,7 +32,8 @@ body {
   background-color: #535353;
   transition: 0.5s;
 }
-#menuPrincipal button {
+
+.btn {
   font-size: 16px;
   padding: 5px 15px;
   background-color: var(--blue);
@@ -42,19 +42,19 @@ body {
   cursor: pointer;
   box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
 }
-#menuPrincipal button:hover {
+.btn:hover {
   background-color: #2d83f3;
   transition: 0.5s;
 }
+
 #hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 60vh;
+  height: 75vh;
   text-align: center;
   color: white;
   padding: 0 20%;
+  background: linear-gradient(180deg, #0c70f2 22%, #303030 80%);
+  background-repeat: no-repeat;
 }
 #hero h1 {
   font-size: 48px;
@@ -67,4 +67,80 @@ body {
 }
 #hero .hero__paragraph-decor {
   background-color: #303030;
+}
+#forms {
+  padding: 0 35% 60px 35%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: var(--black);
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form-group label {
+  margin-bottom: 10px;
+}
+.form-group input {
+  height: 40px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(231, 229, 229);
+}
+.form-group input::placeholder {
+  color: #44444491;
+}
+
+.checkbox-itens input {
+  margin-right: 10px;
+}
+.checkbox-itens label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.checkbox-itens input[type="checkbox"] {
+  transform: scale(1.4);
+}
+/*FOOTER*/
+#footer {
+  background-color: var(--blue);
+  padding: 40px 10%;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+#footer a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+#footer a:hover {
+  color: rgb(207, 206, 206);
+  transition: 0.5s;
+}
+#footer li {
+  list-style: none;
+  margin: 10px 0;
+}
+#footer h5 {
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.footer__menu-adress {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.menu-adress__about {
+  height: 206px;
+}
+.menu-adress__adress {
+  width: 30%;
 }
