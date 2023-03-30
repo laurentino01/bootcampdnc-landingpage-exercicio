@@ -6,9 +6,9 @@
 
 ![image](https://user-images.githubusercontent.com/81561554/228985475-cac07b51-3ef7-4cfe-944d-aebcbd4cfb50.png)
 
-## Link de Acesso ao Projeto (Vercel)
+## Link de Acesso ao Projeto (Netlify)
 
-https://media-notes-dnc.vercel.app/
+[https://media-notes-dnc.vercel.app/](https://bootcamp-dnc-exerecicio.netlify.app/)
 
 <hr> 
 
