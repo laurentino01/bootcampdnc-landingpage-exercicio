@@ -19,10 +19,7 @@
 ## Link de Acesso ao Projeto (Netlify)
 
 https://bootcamp-dnc-exerecicio.netlify.app/
-
-<hr> 
-
-
+ 
 
 ## Tecnologias Utilizadas
 
