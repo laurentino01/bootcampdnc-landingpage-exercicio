@@ -22,8 +22,7 @@ https://bootcamp-dnc-exerecicio.netlify.app/
 
 <hr> 
 
-## Perfil HackerRank
-https://www.hackerrank.com/gabriellaurenti1
+
 
 ## Tecnologias Utilizadas
 
